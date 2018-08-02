@@ -1,0 +1,67 @@
+p {
+  font-family: 'Lato',sans-serif; }
+
+header nav {
+  height: 70px; }
+  header nav img {
+    width: 80px;
+    height: 80px; }
+  header nav ul {
+    margin: 0;
+    display: block !important;
+    justify-content: flex-end;
+    align-items: center; }
+    header nav ul li {
+      text-decoration: none;
+      display: inline-block;
+      list-style: none;
+      padding: 20px 0 20px;
+      vertical-align: middle; }
+      header nav ul li a {
+        position: relative;
+        display: block;
+        padding: 16px 0;
+        margin: 0 12px;
+        line-height: 16px; }
+
+.active {
+  border-bottom: 3px solid #1980b6 !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  border-bottom: 3px solid #e4e4e4; }
+
+section {
+  min-height: 88vh;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  section h2 {
+    text-align: center;
+    color: #1980b6;
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 40px; }
+  section .texto-carousel .btn-primary {
+    background-color: #1980b6;
+    border-color: white;
+    padding: 12px 26px; }
+  section .texto-carousel a {
+    font-weight: 500; }
+  section .card {
+    width: 21rem;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+    section .card h3 {
+      color: #1980b6;
+      font-weight: 400; }
+    section .card p {
+      color: #1980b6; }
+    section .card img {
+      margin-top: 40px;
+      width: 25%; }
+    section .card .btn-secondary {
+      background-color: #1980b6;
+      border-color: #1980b6;
+      padding: 12px 26px; }
+
+/*# sourceMappingURL=style.css.map */
