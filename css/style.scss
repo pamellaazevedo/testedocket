@@ -56,6 +56,17 @@ header {
         font-weight: 700;
         margin-bottom: 40px;
       }
+    .carousel-item {
+      height: 400px;
+    }
+    .carousel-caption {
+      margin-left: 540px;
+      width: 215px;
+      h2 {
+        font-size: 43px;
+      }
+
+    }
     .texto-carousel {
       .btn-primary {
         background-color: $cor;
