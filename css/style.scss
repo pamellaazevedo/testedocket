@@ -46,7 +46,7 @@ header {
 }
 // Sections
   section {
-    min-height: 88vh;
+    min-height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
       h2 {
@@ -65,14 +65,17 @@ header {
       h2 {
         font-size: 43px;
       }
-
-    }
-    .texto-carousel {
-      .btn-primary {
+      p {
+        color: $cor;
+      }
+      a {
         background-color: $cor;
         border-color: white;
         padding: 12px 26px;
       }
+
+    }
+    .texto-carousel {
       a {
         font-weight: 500;
       }
